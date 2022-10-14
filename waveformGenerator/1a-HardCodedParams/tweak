@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+# Sends out a UDP packet on a specific port of loopback, for UDPReceiver to catch. 
+
+import socket, sys, os, time, threading
+from struct import pack
+
+def main(wave=0, gain=1, freq=1):
+
+    port = 5432     #arbitrary port
+    ip = "127.0.0.1"
+
+    args = ["IfI", int(wave), float(gain), int(freq)]
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    sock.sendto(pack(*args), (ip, port))
+
+if __name__ == "__main__":
+    main(*sys.argv[1:])
