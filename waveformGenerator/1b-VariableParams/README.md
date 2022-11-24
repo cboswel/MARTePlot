@@ -1,6 +1,8 @@
 1-CSV
 =====
 
+NB: These scripts call the Main.sh script in this directory, which contains a hard-coded path to my MARTe2 directories. These must be pointed to your MARTe2 installation before use.
+
 This is version 0.1 of the MARTe2 signal generator. It works by using the WaveformGAM to generate a sine, square and saw wave. These are all then sent through a multiplexer to let the user switch between them while the application is running. In the final verison, 8-variable, the amplitude and period of the wave can be changed live as well. These live changes are done by sending a UDP packet through localhost, which is picked up and read by MARTe. 
 
 To send a comand through UDP, run the bash script `./tweak` with three arguments:

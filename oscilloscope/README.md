@@ -1,0 +1,1 @@
+These oscilloscopes try to read a file called wave.csv in the relative path ../../data/wave.csv. Run the accompanying MARTe waveform generator in a different tmux pane to start writing this file as the oscilloscope runs.

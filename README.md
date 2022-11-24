@@ -1,4 +1,4 @@
------_\_\_\__----_\_\__---_\__--_\_-_MARTePlot_-__--_\__---_\_\__----_\_\_\__-----
+-----\_\_\_\_\_----\_\_\_\_---\_\_\_--\_\_-\_MARTePlot\_-\_\_--\_\_\_---\_\_\_\_----\_\_\_\_\_-----
 =====================================================================
 
 MARTePlot is a digital waveform generator and oscilloscope powered by [MARTe2](https://vcis.f4e.europa.eu/marte2-docs/master/html/). This repository contains several variations on this idea, to fit a variety of use cases. Please reach out with code for anything in the below list of planned variations or ideas for things that aren't on the list.
